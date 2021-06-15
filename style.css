@@ -48,6 +48,13 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.produc__wrapper {
+  display: flex;
 }
 
 .product__image {
@@ -58,4 +65,66 @@ h1.site-title span {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+/* layout */
+
+.color {
+  margin-left: 45px;
+}
+
+.color__options {
+  display: flex;
+}
+
+.color__option {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55px;
+}
+
+/* choice of colors */
+.color__box {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px #ffffff;
+}
+
+.color__box--white {
+  background-color: white;
+}
+
+.color__box--black {
+  background-color: black;
+}
+
+.color__box--red {
+  background-color: #953232;
+}
+
+.color__box--blue {
+  background-color: skyblue;
+}
+
+.color__name {
+  text-align: center;
+}
+
+/* highlight chosen color */
+.product__chosen {
+  box-shadow: 0px 0px 3px 3px red;
+}
+
+/* button Objednat */
+.btn-order {
+  background-color: transparent;
+  border: solid 2px #e1e1df;
+  padding: 20px;
+  color: #e1e1df;
+  padding: 10px 40px;
+  border-radius: 25px;
 }
