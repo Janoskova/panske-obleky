@@ -1,3 +1,3 @@
 # panske-obleky
 
-Výchozí soubory pro stránku s pánskými obleky
+The project panske-obleky taught me to cooperate in Git.
